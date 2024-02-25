@@ -40,7 +40,7 @@ The second part is the salary situation in the middle of the career, in the 10th
 
 A page title and description of the dataset were designed first, with a clickable hyperlink to the original source of the dataset at "Salary Increase By Major";
 
-![1.Head](C:\Users\rever\OneDrive\文档\GitHub\Iuriak-HCI-Lab\pageshot\1.Head.png)
+![1.Head](assets/1.Head.png)
 
 Below the description is the main visualization area, and at the top of the area is a Dropdown multi-select box, which by default selects the first two rows of data displayed in the table, and can drop down to select multiple MAJOR entries, and the three charts will be updated accordingly after selection.
 
@@ -50,33 +50,33 @@ Below the description is the main visualization area, and at the top of the area
 
 **The chart at the bottom right** is a combined double chart of bar and line chart, with the left y-axis showing the range of salary change from the initial to the mid-term, and the right y-axis showing the salary level at the initial or mid-term. Below the chart there is a RadioItem component that can be used to switch the display mode of the bar chart ("stack" or "group").
 
-![2.Graph](C:\Users\rever\OneDrive\文档\GitHub\Iuriak-HCI-Lab\pageshot\2.Graph.png)
+![2.Graph](assets/2.Graph.png)
 
 Below the three charts is a detailed data set table with a small sorting triangle by the column names in the header, which can be pressed to rearrange the table according to the data in the current column in ascending or descending order. The bottom right corner of the table has a back and forth page flip function.
 
-![3.Table](C:\Users\rever\OneDrive\文档\GitHub\Iuriak-HCI-Lab\pageshot\3.Table.png)
+![3.Table](assets/3.Table.png)
 
 ### 2.2 patterns revealed in the figures
 
 The first bar chart shows the salary level of these majors at the corresponding stage according to the majors word selected by the user and the mid-career stage selected on the slider below, so that users can easily compare the salary level of each undergraduate major in the same period.
 
-![2.1.Graph](C:\Users\rever\OneDrive\文档\GitHub\Iuriak-HCI-Lab\pageshot\2.1.Graph.png)
+![2.1.Graph](assets/2.1.Graph.png)
 
 When the user moves the mouse over the first bar chart, the line chart on the right side will show the salary level changes of the corresponding major in each working career stage, for example, the chart shows "Salary changes over the Career with undergraduate major in Physics", the line chart allows users to see clearly the salary level of each stage, and the approximate increase between stages.
 
 From the line graph, it can be reflected that the salary of each Undergraduate major, from starting to mid-career, basically shows an upward trend. The increase of the former job stage is smaller than the increase of the latter stage, and the mid-career 25th is the boundary. However, there are a few major's starting median salary is higher than mid-career 10th salary, such as Geography, History, etc.
 
-![2.2.Graph](C:\Users\rever\OneDrive\文档\GitHub\Iuriak-HCI-Lab\pageshot\2.2.Graph.png)
+![2.2.Graph](assets/2.2.Graph.png)
 
 The third chart will also show the median starting salary and mid-career salary of majors according to the majors selected by users with a bar chart, and each point of the line chart is the increase of the starting salary to the mid-career salary of the corresponding majors, which is convenient for users to compare the salary level of majors and their increase, so as to better realize career planning.
 
 Through this chart we can clearly see: different Undergraduate major although the starting salary and mid-career are disparity, but the data set of major from the starting salary to mid-career salary basically have more than 50% of the increase. 
 
-![2.3.Graph](C:\Users\rever\OneDrive\文档\GitHub\Iuriak-HCI-Lab\pageshot\2.3.Graph.png)
+![2.3.Graph](assets/2.3.Graph.png)
 
 Also the third chart's can be switched to graph mode or stack mode via the RadioItem at the bottom for easy viewing and comparison.
 
-![2.4.Graph](C:\Users\rever\OneDrive\文档\GitHub\Iuriak-HCI-Lab\pageshot\2.4.Graph.png)
+![2.4.Graph](assets/2.4.Graph.png)
 
 
 
